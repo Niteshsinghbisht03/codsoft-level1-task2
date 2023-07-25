@@ -9,8 +9,6 @@ import {
   BiLogoRedux,
   BiFastForward,
 } from "react-icons/bi";
-
-import Menu from "./Menu";
 import Aos from "aos";
 import "aos/dist/aos.css";
 

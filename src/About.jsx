@@ -14,7 +14,7 @@ function About() {
   }, []);
   return (
     <div className="">
-      <div className="flex flex-col max-w-full pb-6 space-y-6 pt-36">
+      <div className="flex flex-col min-h-screen pb-6 space-y-6 pt-36">
         <div data-aos="fade-up" className="w-20">
           <img
             src="./src/images/Portfolionew.jpg"
