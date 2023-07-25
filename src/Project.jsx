@@ -2,10 +2,10 @@ import { React, useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import proj1 from "./images/shopping.jpeg";
-import proj2 from "./images/todoapp.jpg";
-import proj3 from "./images/table.jpg";
-import proj4 from "./images/work1.PNG";
-import proj5 from "./images/work2.PNG";
+import proj2 from "./images/todoapp.jpeg";
+import proj3 from "./images/table.jpeg";
+import proj4 from "./images/work1.jpeg";
+import proj5 from "./images/work2.jpeg";
 
 const Project = () => {
   useEffect(() => {
