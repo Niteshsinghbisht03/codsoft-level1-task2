@@ -20,7 +20,7 @@ function About() {
             src="./src/images/Portfolionew.jpg"
             alt="my-image"
             className="object-cover w-full h-full rounded-full aspect-square"
-          ></img>
+          />
         </div>
         <div>
           <h1
