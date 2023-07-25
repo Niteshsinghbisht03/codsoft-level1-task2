@@ -17,7 +17,7 @@ function About() {
       <div className="flex flex-col min-h-screen pb-6 space-y-6 pt-36">
         <div data-aos="fade-up" className="w-20">
           <img
-            src="./src/images/Portfolionew.jpg"
+            src="./src/Portfolionew.jpg"
             alt="my-image"
             className="object-cover w-full h-full rounded-full aspect-square"
           />
