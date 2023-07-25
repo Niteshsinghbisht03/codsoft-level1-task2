@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import myimage from "./Portfolionew.jpg";
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -17,7 +18,7 @@ function About() {
       <div className="flex flex-col min-h-screen pb-6 space-y-6 pt-36">
         <div data-aos="fade-up" className="w-20">
           <img
-            src="./src/Portfolionew.jpg"
+            src={myimage}
             alt="my-image"
             className="object-cover w-full h-full rounded-full aspect-square"
           />
