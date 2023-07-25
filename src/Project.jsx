@@ -1,6 +1,11 @@
 import { React, useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import proj1 from "./images/shopping.jpeg";
+import proj2 from "./images/todoapp.jpg";
+import proj3 from "./images/table.jpg";
+import proj4 from "./images/work1.PNG";
+import proj5 from "./images/work2.PNG";
 
 const Project = () => {
   useEffect(() => {
@@ -17,7 +22,7 @@ const Project = () => {
             >
               <div className="flex flex-col justify-center">
                 <img
-                  src="src/images/shopping.jpeg"
+                  src={proj1}
                   className="object-cover w-full h-full rounded-3xl"
                 />
               </div>
@@ -62,7 +67,7 @@ const Project = () => {
             >
               <div className="flex flex-col justify-center">
                 <img
-                  src="src/images/todoapp.jpg"
+                  src={proj2}
                   className="object-cover w-full h-full rounded-3xl"
                 />
               </div>
@@ -107,7 +112,7 @@ const Project = () => {
             >
               <div className="flex flex-col justify-center ">
                 <img
-                  src="src/images/table.jpg"
+                  src={proj3}
                   className="object-cover w-full h-full rounded-3xl"
                 />
               </div>
@@ -154,7 +159,7 @@ const Project = () => {
             >
               <div className="flex flex-col justify-center">
                 <img
-                  src="src/images/work1.PNG"
+                  src={proj4}
                   className="object-cover w-full h-full rounded-3xl"
                 />
               </div>
@@ -199,7 +204,7 @@ const Project = () => {
             >
               <div className="flex flex-col justify-center ">
                 <img
-                  src="src/images/work2.PNG"
+                  src={proj5}
                   className="object-cover w-full h-full rounded-3xl"
                 />
               </div>
@@ -244,7 +249,7 @@ const Project = () => {
             >
               <div className="flex flex-col justify-center">
                 <img
-                  src="src/images/shopping.jpeg"
+                  src={proj1}
                   className="object-cover w-full h-full rounded-3xl"
                 />
               </div>
